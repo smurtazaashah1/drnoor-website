@@ -1,0 +1,188 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#e8e8e8"/>
+  
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="800" height="450" fill="#ffffff"/>
+  
+  <!-- Large Collaborative Tables -->
+  <g id="collab-tables">
+    <!-- Hexagonal Table 1 -->
+    <polygon points="200,250 250,230 300,250 300,300 250,320 200,300" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="3"/>
+    
+    <!-- Hexagonal Table 2 -->
+    <polygon points="500,250 550,230 600,250 600,300 550,320 500,300" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="3"/>
+    
+    <!-- Round Table -->
+    <circle cx="350" cy="380" r="60" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="3"/>
+  </g>
+  
+  <!-- Comfortable Lounge Chairs -->
+  <g id="lounge-chairs">
+    <!-- Around Hexagonal Table 1 -->
+    <ellipse cx="180" cy="240" rx="20" ry="30" fill="#667EEA"/>
+    <ellipse cx="170" cy="235" rx="15" ry="20" fill="#764BA2"/>
+    
+    <ellipse cx="220" cy="220" rx="20" ry="30" fill="#F093FB"/>
+    <ellipse cx="210" cy="215" rx="15" ry="20" fill="#C084FC"/>
+    
+    <ellipse cx="280" cy="220" rx="20" ry="30" fill="#4ECDC4"/>
+    <ellipse cx="270" cy="215" rx="15" ry="20" fill="#38B2AC"/>
+    
+    <ellipse cx="320" cy="240" rx="20" ry="30" fill="#FF6B6B"/>
+    <ellipse cx="310" cy="235" rx="15" ry="20" fill="#E53E3E"/>
+    
+    <ellipse cx="320" cy="310" rx="20" ry="30" fill="#FFA500"/>
+    <ellipse cx="310" cy="315" rx="15" ry="20" fill="#DD6B20"/>
+    
+    <ellipse cx="180" cy="310" rx="20" ry="30" fill="#9F7AEA"/>
+    <ellipse cx="170" cy="315" rx="15" ry="20" fill="#805AD5"/>
+    
+    <!-- Around Hexagonal Table 2 -->
+    <ellipse cx="480" cy="240" rx="20" ry="30" fill="#38B2AC"/>
+    <ellipse cx="470" cy="235" rx="15" ry="20" fill="#319795"/>
+    
+    <ellipse cx="520" cy="220" rx="20" ry="30" fill="#E53E3E"/>
+    <ellipse cx="510" cy="215" rx="15" ry="20" fill="#C53030"/>
+    
+    <ellipse cx="580" cy="220" rx="20" ry="30" fill="#805AD5"/>
+    <ellipse cx="570" cy="215" rx="15" ry="20" fill="#6B46C1"/>
+    
+    <ellipse cx="620" cy="240" rx="20" ry="30" fill="#DD6B20"/>
+    <ellipse cx="610" cy="235" rx="15" ry="20" fill="#C05621"/>
+    
+    <!-- Around Round Table -->
+    <ellipse cx="290" cy="360" rx="20" ry="30" fill="#4299E1"/>
+    <ellipse cx="280" cy="355" rx="15" ry="20" fill="#3182CE"/>
+    
+    <ellipse cx="320" cy="320" rx="20" ry="30" fill="#48BB78"/>
+    <ellipse cx="310" cy="315" rx="15" ry="20" fill="#38A169"/>
+    
+    <ellipse cx="380" cy="320" rx="20" ry="30" fill="#ED8936"/>
+    <ellipse cx="370" cy="315" rx="15" ry="20" fill="#DD6B20"/>
+    
+    <ellipse cx="410" cy="360" rx="20" ry="30" fill="#F56565"/>
+    <ellipse cx="400" cy="355" rx="15" ry="20" fill="#E53E3E"/>
+  </g>
+  
+  <!-- Study Materials on Tables -->
+  <g id="study-materials">
+    <!-- On Hexagonal Table 1 -->
+    <rect x="230" y="260" width="20" height="15" rx="2" fill="#4A5568"/>
+    <rect x="232" y="262" width="16" height="11" fill="#F7FAFC"/>
+    <line x1="234" y1="265" x2="246" y2="265" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="234" y1="268" x2="246" y2="268" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="234" y1="271" x2="242" y2="271" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Laptop -->
+    <rect x="260" y="265" width="25" height="18" rx="2" fill="#2D3748"/>
+    <rect x="262" y="267" width="21" height="14" fill="#4A90E2"/>
+    
+    <!-- On Hexagonal Table 2 -->
+    <rect x="530" y="260" width="20" height="15" rx="2" fill="#4A5568"/>
+    <rect x="532" y="262" width="16" height="11" fill="#F7FAFC"/>
+    
+    <!-- Tablet -->
+    <rect x="560" y="265" width="18" height="25" rx="3" fill="#1A202C"/>
+    <rect x="562" y="267" width="14" height="21" fill="#00D4FF"/>
+    
+    <!-- On Round Table -->
+    <circle cx="340" cy="370" r="8" fill="#4A5568"/>
+    <circle cx="340" cy="370" r="6" fill="#F7FAFC"/>
+    <circle cx="360" cy="385" r="6" fill="#E53E3E"/>
+    <circle cx="360" cy="385" r="4" fill="#FFF5F5"/>
+  </g>
+  
+  <!-- Whiteboard with Dr. Noor's study session notes -->
+  <rect x="80" y="60" width="640" height="180" fill="#1a365d" stroke="#2d3748" stroke-width="3"/>
+  <text x="400" y="100" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">Study Session - Exam Preparation</text>
+  
+  <!-- Study tips on board -->
+  <text x="400" y="130" text-anchor="middle" fill="#68d391" font-family="Arial" font-size="14">Key Topics Review:</text>
+  <text x="300" y="155" fill="#fbb6ce" font-family="Arial" font-size="12">• Photosynthesis</text>
+  <text x="300" y="175" fill="#fbb6ce" font-family="Arial" font-size="12">• Organic Chemistry</text>
+  <text x="300" y="195" fill="#fbb6ce" font-family="Arial" font-size="12">• Cell Division</text>
+  
+  <text x="500" y="155" fill="#87ceeb" font-family="Arial" font-size="12">• Redox Reactions</text>
+  <text x="500" y="175" fill="#87ceeb" font-family="Arial" font-size="12">• Genetics</text>
+  <text x="500" y="195" fill="#87ceeb" font-family="Arial" font-size="12">• Equilibrium</text>
+  
+  <!-- Wall-mounted whiteboards with notes -->
+  <rect x="20" y="150" width="50" height="80" fill="#ffffff" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="45" y="170" text-anchor="middle" fill="#2c3e50" font-size="8">Biology Notes</text>
+  <line x1="25" y1="180" x2="65" y2="180" stroke="#3498db" stroke-width="1"/>
+  <line x1="25" y1="190" x2="60" y2="190" stroke="#3498db" stroke-width="1"/>
+  <line x1="25" y1="200" x2="55" y2="200" stroke="#3498db" stroke-width="1"/>
+  
+  <rect x="730" y="150" width="50" height="80" fill="#ffffff" stroke="#bdc3c7" stroke-width="2"/>
+  <text x="755" y="170" text-anchor="middle" fill="#2c3e50" font-size="8">Chemistry</text>
+  <line x1="735" y1="180" x2="775" y2="180" stroke="#e74c3c" stroke-width="1"/>
+  <line x1="735" y1="190" x2="770" y2="190" stroke="#e74c3c" stroke-width="1"/>
+  <line x1="735" y1="200" x2="765" y2="200" stroke="#e74c3c" stroke-width="1"/>
+  
+  <!-- Comfortable Reading Nook -->
+  <g id="reading-nook">
+    <path d="M50,350 Q80,340 110,350 L110,450 Q80,460 50,450 Z" fill="#667EEA"/>
+    <path d="M55,355 Q80,345 105,355 L105,445 Q80,455 55,445 Z" fill="#764BA2"/>
+    
+    <!-- Bookshelf -->
+    <rect x="20" y="300" width="15" height="100" fill="#8B4513"/>
+    <rect x="22" y="310" width="11" height="8" fill="#FF6B6B"/>
+    <rect x="22" y="320" width="11" height="6" fill="#4ECDC4"/>
+    <rect x="22" y="328" width="11" height="10" fill="#F093FB"/>
+    <rect x="22" y="340" width="11" height="7" fill="#FFA500"/>
+    <rect x="22" y="349" width="11" height="9" fill="#9F7AEA"/>
+    <rect x="22" y="360" width="11" height="8" fill="#48BB78"/>
+    <rect x="22" y="370" width="11" height="6" fill="#ED8936"/>
+    <rect x="22" y="378" width="11" height="12" fill="#4299E1"/>
+  </g>
+  
+  <!-- Plants for Ambiance -->
+  <g id="plants">
+    <ellipse cx="750" cy="420" rx="25" ry="40" fill="#48BB78"/>
+    <rect x="740" y="440" width="20" height="30" fill="#8B4513"/>
+    <ellipse cx="750" cy="470" rx="30" ry="15" fill="#2D3748"/>
+    
+    <ellipse cx="120" cy="420" rx="20" ry="35" fill="#38A169"/>
+    <rect x="110" y="440" width="20" height="25" fill="#8B4513"/>
+    <ellipse cx="120" cy="465" rx="25" ry="12" fill="#2D3748"/>
+  </g>
+  
+  <!-- Modern Ceiling Lighting -->
+  <g id="ceiling-lights">
+    <circle cx="250" cy="40" r="30" fill="url(#lightGlow)" opacity="0.7"/>
+    <circle cx="250" cy="40" r="15" fill="#FFF5B7"/>
+    
+    <circle cx="550" cy="40" r="30" fill="url(#lightGlow)" opacity="0.7"/>
+    <circle cx="550" cy="40" r="15" fill="#FFF5B7"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="collaborativeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#764BA2;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#F093FB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="studyWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EDF2F7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="woodFloor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="lightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFF5B7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF5B7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+</svg>

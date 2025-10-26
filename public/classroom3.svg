@@ -1,0 +1,152 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#e8e8e8"/>
+  
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="800" height="450" fill="#ffffff"/>
+  
+  <!-- Interactive Smart Board -->
+  <rect x="250" y="80" width="300" height="180" rx="12" fill="#1A202C" stroke="#4A5568" stroke-width="3"/>
+  <rect x="260" y="90" width="280" height="160" fill="#000000"/>
+  
+  <!-- Smart Board Content -->
+  <rect x="270" y="100" width="260" height="140" fill="url(#screenGrad)"/>
+  
+  <!-- DNA Helix Animation on Screen -->
+  <g id="dna-helix">
+    <path d="M300,130 Q320,120 340,130 Q360,140 380,130 Q400,120 420,130" stroke="#00D4FF" stroke-width="3" fill="none"/>
+    <path d="M300,170 Q320,180 340,170 Q360,160 380,170 Q400,180 420,170" stroke="#FF6B6B" stroke-width="3" fill="none"/>
+    <line x1="310" y1="135" x2="310" y2="165" stroke="#4ECDC4" stroke-width="2"/>
+    <line x1="330" y1="125" x2="330" y2="175" stroke="#4ECDC4" stroke-width="2"/>
+    <line x1="350" y1="135" x2="350" y2="165" stroke="#4ECDC4" stroke-width="2"/>
+    <line x1="370" y1="140" x2="370" y2="160" stroke="#4ECDC4" stroke-width="2"/>
+    <line x1="390" y1="125" x2="390" y2="175" stroke="#4ECDC4" stroke-width="2"/>
+    <line x1="410" y1="135" x2="410" y2="165" stroke="#4ECDC4" stroke-width="2"/>
+  </g>
+  
+  <!-- Modern Curved Desks -->
+  <g id="curved-desks">
+    <!-- Front Row -->
+    <path d="M100,350 Q200,340 300,350 L300,400 Q200,410 100,400 Z" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    <path d="M500,350 Q600,340 700,350 L700,400 Q600,410 500,400 Z" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <!-- Back Row -->
+    <path d="M150,280 Q300,270 450,280 L450,320 Q300,330 150,320 Z" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    <path d="M550,280 Q650,270 750,280 L750,320 Q650,330 550,320 Z" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+  
+  <!-- Modern Ergonomic Chairs -->
+  <g id="modern-chairs">
+    <!-- Front Row Chairs -->
+    <ellipse cx="150" cy="420" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="140" y="405" width="20" height="30" rx="10" fill="#667EEA"/>
+    
+    <ellipse cx="250" cy="420" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="240" y="405" width="20" height="30" rx="10" fill="#667EEA"/>
+    
+    <ellipse cx="550" cy="420" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="540" y="405" width="20" height="30" rx="10" fill="#667EEA"/>
+    
+    <ellipse cx="650" cy="420" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="640" y="405" width="20" height="30" rx="10" fill="#667EEA"/>
+    
+    <!-- Back Row Chairs -->
+    <ellipse cx="200" cy="340" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="190" y="325" width="20" height="30" rx="10" fill="#F093FB"/>
+    
+    <ellipse cx="350" cy="340" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="340" y="325" width="20" height="30" rx="10" fill="#F093FB"/>
+    
+    <ellipse cx="600" cy="340" rx="25" ry="15" fill="#4A5568"/>
+    <rect x="590" y="325" width="20" height="30" rx="10" fill="#F093FB"/>
+  </g>
+  
+  <!-- Tablets/Devices on Desks -->
+  <g id="devices">
+    <rect x="180" y="360" width="40" height="25" rx="4" fill="#1A202C" stroke="#4A5568" stroke-width="1"/>
+    <rect x="185" y="365" width="30" height="15" fill="#00D4FF" opacity="0.8"/>
+    
+    <rect x="280" y="360" width="40" height="25" rx="4" fill="#1A202C" stroke="#4A5568" stroke-width="1"/>
+    <rect x="285" y="365" width="30" height="15" fill="#FF6B6B" opacity="0.8"/>
+    
+    <rect x="580" y="360" width="40" height="25" rx="4" fill="#1A202C" stroke="#4A5568" stroke-width="1"/>
+    <rect x="585" y="365" width="30" height="15" fill="#4ECDC4" opacity="0.8"/>
+    
+    <rect x="230" y="290" width="40" height="25" rx="4" fill="#1A202C" stroke="#4A5568" stroke-width="1"/>
+    <rect x="235" y="295" width="30" height="15" fill="#F093FB" opacity="0.8"/>
+  </g>
+  
+  <!-- Wall Mounted Displays -->
+  <rect x="50" y="150" width="120" height="80" rx="8" fill="#1A202C" stroke="#4A5568" stroke-width="2"/>
+  <rect x="60" y="160" width="100" height="60" fill="url(#displayGrad)"/>
+  
+  <rect x="630" y="150" width="120" height="80" rx="8" fill="#1A202C" stroke="#4A5568" stroke-width="2"/>
+  <rect x="640" y="160" width="100" height="60" fill="url(#displayGrad)"/>
+  
+  <!-- Molecular Models Display -->
+  <g id="molecules">
+    <circle cx="680" cy="180" r="8" fill="#FF6B6B"/>
+    <circle cx="700" cy="190" r="6" fill="#4ECDC4"/>
+    <circle cx="720" cy="180" r="8" fill="#FF6B6B"/>
+    <line x1="688" y1="180" x2="692" y2="190" stroke="#4A5568" stroke-width="2"/>
+    <line x1="708" y1="190" x2="712" y2="180" stroke="#4A5568" stroke-width="2"/>
+  </g>
+  
+  <!-- Modern Lighting System -->
+  <g id="led-lights">
+    <rect x="0" y="20" width="800" height="8" fill="url(#ledStrip)" opacity="0.6"/>
+    <circle cx="150" cy="24" r="4" fill="#FFF5B7"/>
+    <circle cx="300" cy="24" r="4" fill="#FFF5B7"/>
+    <circle cx="450" cy="24" r="4" fill="#FFF5B7"/>
+    <circle cx="600" cy="24" r="4" fill="#FFF5B7"/>
+    <circle cx="750" cy="24" r="4" fill="#FFF5B7"/>
+  </g>
+  
+  <!-- Air Purification System -->
+  <rect x="20" y="40" width="60" height="30" rx="15" fill="#4A5568"/>
+  <rect x="25" y="45" width="50" height="20" fill="#E2E8F0"/>
+  <circle cx="35" cy="55" r="3" fill="#00D4FF"/>
+  <circle cx="45" cy="55" r="3" fill="#4ECDC4"/>
+  <circle cx="55" cy="55" r="3" fill="#FF6B6B"/>
+  <circle cx="65" cy="55" r="3" fill="#F093FB"/>
+  
+  <!-- Gradients and Effects -->
+  <defs>
+    <linearGradient id="interactiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764BA2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F093FB;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="modernWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EDF2F7;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="modernFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D3748;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A202C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D3748;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="displayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <linearGradient id="ledStrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFF5B7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F093FB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,149 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'public/images'
+public_folder: '/images'
+
+collections:
+  - name: 'faq'
+    label: 'FAQ'
+    files:
+      - label: 'FAQ Data'
+        name: 'faq'
+        file: 'data/faq.json'
+        fields:
+          - label: 'FAQ Items'
+            name: 'faq'
+            widget: 'list'
+            fields:
+              - { label: 'Question', name: 'question', widget: 'string' }
+              - { label: 'Answer', name: 'answer', widget: 'text' }
+              - {
+                  label: 'Keywords',
+                  name: 'keywords',
+                  widget: 'list',
+                  default: [],
+                }
+
+  - name: 'schedule'
+    label: 'Schedule'
+    files:
+      - label: 'Class Schedule'
+        name: 'schedule'
+        file: 'app/components/Schedule.tsx'
+        fields:
+          - label: 'Online Classes'
+            name: 'onlineClasses'
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                default: 'Online Classes'
+              - label: 'Classes'
+                name: 'classes'
+                widget: 'list'
+                fields:
+                  - {
+                      label: 'Day',
+                      name: 'day',
+                      widget: 'select',
+                      options:
+                        [
+                          'Monday',
+                          'Tuesday',
+                          'Wednesday',
+                          'Thursday',
+                          'Friday',
+                          'Saturday',
+                          'Sunday',
+                        ],
+                    }
+                  - { label: 'Subject', name: 'subject', widget: 'string' }
+                  - { label: 'Time', name: 'time', widget: 'string' }
+                  - {
+                      label: 'Group',
+                      name: 'group',
+                      widget: 'string',
+                      required: false,
+                    }
+
+          - label: 'Bahadurabad Classes'
+            name: 'bahadurabaClasses'
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                default: 'Bahadurabad Classes'
+              - label: 'Classes'
+                name: 'classes'
+                widget: 'list'
+                fields:
+                  - {
+                      label: 'Day',
+                      name: 'day',
+                      widget: 'select',
+                      options:
+                        [
+                          'Monday',
+                          'Tuesday',
+                          'Wednesday',
+                          'Thursday',
+                          'Friday',
+                          'Saturday',
+                          'Sunday',
+                        ],
+                    }
+                  - { label: 'Subject', name: 'subject', widget: 'string' }
+                  - { label: 'Time', name: 'time', widget: 'string' }
+                  - {
+                      label: 'Group',
+                      name: 'group',
+                      widget: 'string',
+                      required: false,
+                    }
+
+  - name: 'settings'
+    label: 'Site Settings'
+    files:
+      - label: 'General Settings'
+        name: 'general'
+        file: 'data/settings.json'
+        fields:
+          - { label: 'Site Title', name: 'title', widget: 'string' }
+          - { label: 'Site Description', name: 'description', widget: 'text' }
+          - { label: 'Contact Phone', name: 'phone', widget: 'string' }
+          - { label: 'WhatsApp Number', name: 'whatsapp', widget: 'string' }
+          - { label: 'Email', name: 'email', widget: 'string' }
+          - { label: 'Address', name: 'address', widget: 'text' }
+
+  - name: 'content'
+    label: 'Page Content'
+    files:
+      - label: 'Homepage Content'
+        name: 'homepage'
+        file: 'data/homepage.json'
+        fields:
+          - { label: 'Hero Title', name: 'heroTitle', widget: 'string' }
+          - { label: 'Hero Subtitle', name: 'heroSubtitle', widget: 'text' }
+          - {
+              label: 'About Section Title',
+              name: 'aboutTitle',
+              widget: 'string',
+            }
+          - {
+              label: 'About Section Content',
+              name: 'aboutContent',
+              widget: 'markdown',
+            }
+          - label: 'Features'
+            name: 'features'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Icon', name: 'icon', widget: 'string' }
+
+publish_mode: editorial_workflow

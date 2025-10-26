@@ -1,0 +1,123 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="450" width="800" height="150" fill="#e8e8e8"/>
+  
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="800" height="450" fill="#ffffff"/>
+  
+  <!-- Chemistry Benches with Sinks -->
+  <g id="benches">
+    <!-- Bench 1 -->
+    <rect x="80" y="300" width="180" height="100" rx="8" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <rect x="90" y="310" width="160" height="80" fill="#E2E8F0"/>
+    <!-- Sink -->
+    <circle cx="170" cy="350" r="25" fill="#4A5568" stroke="#2D3748" stroke-width="2"/>
+    <circle cx="170" cy="350" r="20" fill="#E2E8F0"/>
+    
+    <!-- Bench 2 -->
+    <rect x="310" y="300" width="180" height="100" rx="8" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <rect x="320" y="310" width="160" height="80" fill="#E2E8F0"/>
+    <!-- Sink -->
+    <circle cx="400" cy="350" r="25" fill="#4A5568" stroke="#2D3748" stroke-width="2"/>
+    <circle cx="400" cy="350" r="20" fill="#E2E8F0"/>
+    
+    <!-- Bench 3 -->
+    <rect x="540" y="300" width="180" height="100" rx="8" fill="#2D3748" stroke="#4A5568" stroke-width="2"/>
+    <rect x="550" y="310" width="160" height="80" fill="#E2E8F0"/>
+    <!-- Sink -->
+    <circle cx="630" cy="350" r="25" fill="#4A5568" stroke="#2D3748" stroke-width="2"/>
+    <circle cx="630" cy="350" r="20" fill="#E2E8F0"/>
+  </g>
+  
+  <!-- Chemistry Equipment -->
+  <g id="chemistry-equipment">
+    <!-- Bunsen Burners -->
+    <rect x="120" y="320" width="8" height="30" fill="#4A5568"/>
+    <circle cx="124" cy="315" r="6" fill="#E53E3E"/>
+    <path d="M124,309 L124,305 M121,307 L127,307" stroke="#FFA500" stroke-width="2"/>
+    
+    <rect x="350" y="320" width="8" height="30" fill="#4A5568"/>
+    <circle cx="354" cy="315" r="6" fill="#E53E3E"/>
+    <path d="M354,309 L354,305 M351,307 L357,307" stroke="#FFA500" stroke-width="2"/>
+    
+    <rect x="580" y="320" width="8" height="30" fill="#4A5568"/>
+    <circle cx="584" cy="315" r="6" fill="#E53E3E"/>
+    <path d="M584,309 L584,305 M581,307 L587,307" stroke="#FFA500" stroke-width="2"/>
+    
+    <!-- Beakers and Flasks -->
+    <rect x="200" y="330" width="20" height="25" rx="2" fill="rgba(56, 178, 172, 0.3)" stroke="#38B2AC" stroke-width="2"/>
+    <rect x="230" y="325" width="15" height="30" rx="2" fill="rgba(229, 62, 62, 0.3)" stroke="#E53E3E" stroke-width="2"/>
+    
+    <rect x="430" y="330" width="20" height="25" rx="2" fill="rgba(49, 130, 206, 0.3)" stroke="#3182CE" stroke-width="2"/>
+    <rect x="460" y="325" width="15" height="30" rx="2" fill="rgba(56, 178, 172, 0.3)" stroke="#38B2AC" stroke-width="2"/>
+    
+    <!-- Erlenmeyer Flasks -->
+    <path d="M680,340 L690,340 L695,355 L675,355 Z" fill="rgba(128, 90, 213, 0.3)" stroke="#805AD5" stroke-width="2"/>
+    <rect x="682" y="335" width="6" height="8" fill="rgba(128, 90, 213, 0.3)" stroke="#805AD5" stroke-width="1"/>
+  </g>
+  
+  <!-- Fume Hood -->
+  <rect x="150" y="80" width="500" height="180" rx="12" fill="#2D3748" stroke="#4A5568" stroke-width="3"/>
+  <rect x="160" y="90" width="480" height="160" fill="rgba(226, 232, 240, 0.1)"/>
+  <rect x="170" y="100" width="460" height="140" fill="rgba(255, 255, 255, 0.05)"/>
+  
+  <!-- Fume Hood Glass -->
+  <rect x="170" y="100" width="460" height="100" fill="rgba(173, 216, 230, 0.2)" stroke="#4A90E2" stroke-width="1"/>
+  
+  <!-- Fume Hood Equipment Inside -->
+  <rect x="200" y="180" width="30" height="40" fill="#4A5568"/>
+  <rect x="250" y="185" width="20" height="35" fill="#E53E3E"/>
+  <rect x="290" y="180" width="25" height="40" fill="#38B2AC"/>
+  
+  <!-- Periodic Table Poster -->
+  <rect x="50" y="120" width="80" height="60" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="90" y="140" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="8" font-weight="bold">PERIODIC</text>
+  <text x="90" y="150" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="8" font-weight="bold">TABLE</text>
+  
+  <!-- Chemical Formula on Wall -->
+  <rect x="670" y="120" width="80" height="60" fill="#F7FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="710" y="140" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="10" font-weight="bold">H₂SO₄</text>
+  <text x="710" y="155" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="10" font-weight="bold">NaCl</text>
+  <text x="710" y="170" text-anchor="middle" fill="#2D3748" font-family="Arial, sans-serif" font-size="10" font-weight="bold">C₆H₁₂O₆</text>
+  
+  <!-- Safety Equipment -->
+  <rect x="20" y="200" width="15" height="80" fill="#E53E3E"/>
+  <rect x="22" y="210" width="11" height="60" fill="#FFF5F5"/>
+  <text x="27.5" y="245" text-anchor="middle" fill="#E53E3E" font-family="Arial, sans-serif" font-size="8" font-weight="bold">FIRE</text>
+  
+  <!-- Eye Wash Station -->
+  <rect x="20" y="300" width="30" height="40" fill="#38B2AC"/>
+  <circle cx="35" cy="315" r="8" fill="#E2E8F0"/>
+  <circle cx="35" cy="315" r="5" fill="#38B2AC"/>
+  
+  <!-- Ceiling Lights -->
+  <ellipse cx="200" cy="30" rx="80" ry="25" fill="url(#lightGrad)" opacity="0.8"/>
+  <ellipse cx="400" cy="30" rx="80" ry="25" fill="url(#lightGrad)" opacity="0.8"/>
+  <ellipse cx="600" cy="30" rx="80" ry="25" fill="url(#lightGrad)" opacity="0.8"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="chemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F093FB;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D3748;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="lightGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFF5B7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF5B7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+</svg>

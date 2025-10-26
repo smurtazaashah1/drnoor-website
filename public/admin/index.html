@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager - Dr. Noor Academy</title>
+    <script
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Include the script that builds the page and powers Netlify CMS -->
+    <script
+      src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"
+      defer
+    ></script>
+
+    <script defer>
+      // Wait for netlifyIdentity to be available
+      function initNetlifyIdentity() {
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on('init', (user) => {
+            if (!user) {
+              window.netlifyIdentity.on('login', () => {
+                document.location.href = '/admin/';
+              });
+            }
+          });
+        } else {
+          // Retry if netlifyIdentity is not yet loaded
+          setTimeout(initNetlifyIdentity, 100);
+        }
+      }
+
+      // Initialize when DOM is ready
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initNetlifyIdentity);
+      } else {
+        initNetlifyIdentity();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "heroTitle": "Dr. Noor Academy",
+  "heroSubtitle": "Expert tutoring for A2, AS, and OL/IGCSE Chemistry and Biology with personalized attention and proven results.",
+  "aboutTitle": "About Dr. Noor",
+  "aboutContent": "With years of experience in teaching Chemistry and Biology, Dr. Noor provides comprehensive tutoring for students preparing for A2, AS, and OL/IGCSE examinations. Our academy focuses on building strong fundamentals and developing problem-solving skills.",
+  "features": [
+    {
+      "title": "Expert Teaching",
+      "description": "Experienced instructor with proven track record in Chemistry and Biology education",
+      "icon": "graduation-cap"
+    },
+    {
+      "title": "Flexible Learning",
+      "description": "Both online and in-person classes available to suit your schedule and preferences",
+      "icon": "clock"
+    },
+    {
+      "title": "Personalized Attention",
+      "description": "Small class sizes ensure individual attention and customized learning approaches",
+      "icon": "user-check"
+    },
+    {
+      "title": "Proven Results",
+      "description": "Consistent track record of student success in A2, AS, and OL/IGCSE examinations",
+      "icon": "trophy"
+    }
+  ]
+}
